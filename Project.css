@@ -1,0 +1,217 @@
+body{
+    font-family: Helvetica;
+    margin: 0;
+}
+
+/*--------------
+Start header part
+---------------*/
+
+header{
+    margin-bottom: 50px;
+}
+.header-top-part{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 70px;
+}
+.header-part-left{
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 45%;
+}
+.header-part-right{
+    margin-right: 70px;
+}
+header h2{
+    margin-top: 0;
+    color: #222222;
+}
+header i{
+    margin-left: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 16px;
+    font-weight:500;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+h1{
+    font-size: 3em;
+    margin: 0;
+    color: #222222;
+}
+header p{
+    color: #555555;
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight:550;
+}
+button i{
+    margin: 0;
+    font-size: 12px;
+}
+header button{
+    background-color: #E02C6D;
+    border-style: none;
+    margin-top: 20px;
+    padding: 16px 34px;
+    border-radius: 50px;
+}
+.header-main-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*--------------
+Finished header part
+---------------*/
+
+/*-----------------
+ Start main body part one
+ ------------------------*/
+
+.logo img{
+    width:7%
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 120px;
+}
+
+/*-----------------
+Finished main body part one
+------------------------*/
+
+/*-----------------
+ Start main body part two
+ ------------------------*/
+.connection-part img{
+    width: 300px;
+    height: 256px;
+}
+.connection-part h2{
+    text-align: center;
+    color: #222222;
+}
+.connection-part h3{
+    color: #222222;
+    margin: 0;
+    margin-top: 16px;
+}
+.connection-part h5{
+    color: #555555;
+    font-weight: 500;
+}
+.connection-part h5{
+    margin: 0;
+    margin-top: 12px;
+}
+.connection-part p{
+    margin: 0;
+    margin-top: 12px;
+}
+h5 i{
+    color: orangered;
+}
+.flex-tripod{
+    width: 300px;
+    height: 420px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #dddddd;
+}
+.microphone{
+    width: 300px;
+    height: 420px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #dddddd;
+}
+.airbuds{
+    width: 300px;
+    height: 420px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #dddddd;
+}
+.drone{
+    width: 300px;
+    height: 420px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #dddddd;
+}
+.vlogging-camera{
+    width: 300px;
+    height: 420px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #dddddd;
+}
+.action-camera{
+    width: 300px;
+    height: 420px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #dddddd;
+}
+.connection-all-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content:space-between;
+    row-gap: 20px;
+    width: 1020px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.connection-part{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.see-more a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 14px;
+    font-weight:550;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 140px;
+    margin-top: 40px;
+}
+ /*-----------------
+Finished main body part two
+------------------------*/
+
+/*-----------------
+ Start footer part
+ ----------------*/
+footer{
+    background-color: #0A0826;
+    padding: 5% 40%;
+}
+footer h2{
+    color: white;
+    text-align: center;
+}
+footer h5{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin: 5px;
+}
+.footer-all-link{
+    text-align: center;
+}
+h4 a{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    color: white;
+    background-color: #8888887a;
+    border-radius: 50%;
+    
+}
+ /*-----------------
+ Finished footer part
+ ----------------*/
