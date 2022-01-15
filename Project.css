@@ -221,7 +221,7 @@ h4 a{
 ----------------*/
 
 /*-----------------
- Mobile Devices
+ Mobile Devices Start
 ----------------*/
 
 @media only screen and (max-width:688px) {
@@ -267,3 +267,74 @@ h4 a{
         font-size: 1.2em;
     }
 }
+/*-----------------
+ Mobile Devices Finished
+-------------------*/
+
+/*-----------------
+ Tablet Devices Start
+-------------------*/
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    
+    .header-top-part{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-top-part h2{
+        text-align: center;
+    }
+    .header-main-part{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-part-left h1, p{
+        text-align: center;
+    }
+    .header-part-left{
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .header-part-right{
+        margin: 0;
+    }
+    .header-part-left button{
+        margin-left: 100px;
+    }
+    .connection-all-part{
+        grid-template-columns: repeat(2, 1fr);
+        width: 480px;
+        margin-left: 180px;
+    }
+    .connection-part img{
+        width: 200px;
+        height: auto;
+    }
+    .flex-tripod{
+        width: 200px;
+        height: 320px;
+    }
+    .microphone{
+        width: 200px;
+        height: 320px;
+    }
+    .airbuds{
+        width: 200px;
+        height: 320px;
+    }
+    .drone{
+        width: 200px;
+        height: 320px;
+    }
+    .vlogging-camera{
+        width: 200px;
+        height: 320px;
+    }
+    .action-camera{
+        width: 200px;
+        height: 320px;
+    }
+}
+/*-----------------
+ Tablet Devices Finished
+-------------------*/
